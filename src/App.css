@@ -1,0 +1,118 @@
+body{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+51,207cca+74,2989d8+89,2989d8+97,2989d8+97,207cca+100,207cca+100,207cca+100,7db9e8+100,207cca+100,207cca+102 */
+  background: rgb(30,87,153); /* Old browsers */
+  background: -moz-linear-gradient(top, rgb(30,87,153) 51%, rgb(32,124,202) 74%, rgb(41,137,216) 89%, rgb(41,137,216) 97%, rgb(41,137,216) 97%, rgb(32,124,202) 100%, rgb(32,124,202) 100%, rgb(32,124,202) 100%, rgb(125,185,232) 100%, rgb(32,124,202) 100%, rgb(32,124,202) 102%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgb(30,87,153) 51%,rgb(32,124,202) 74%,rgb(41,137,216) 89%,rgb(41,137,216) 97%,rgb(41,137,216) 97%,rgb(32,124,202) 100%,rgb(32,124,202) 100%,rgb(32,124,202) 100%,rgb(125,185,232) 100%,rgb(32,124,202) 100%,rgb(32,124,202) 102%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgb(30,87,153) 51%,rgb(32,124,202) 74%,rgb(41,137,216) 89%,rgb(41,137,216) 97%,rgb(41,137,216) 97%,rgb(32,124,202) 100%,rgb(32,124,202) 100%,rgb(32,124,202) 100%,rgb(125,185,232) 100%,rgb(32,124,202) 100%,rgb(32,124,202) 102%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=0 ); /* IE6-9 */
+}
+
+h1, ol{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.propertyForP{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+ol{
+  margin:0;
+  padding:0;
+}
+
+.App{
+  color: #293e4c;
+}
+.wrapper{
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.blockPerson li{
+  list-style-position: inside;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 1%;
+  position: relative;
+}
+
+.blockPerson li:nth-child(2n){
+  background-color: #e8eff4;
+}
+
+.blockPerson li .liWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  position: absolute;
+  top: 16%;
+  left: 4%;
+}
+
+.blockPerson span{
+  margin-right: 60px;
+}
+
+.searchMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  border: none;
+  min-height: 80px;
+  background-color: #e7eef4;
+}
+
+.search{
+  display: flex;
+  width: 98%;
+}
+
+input[type="search"] {
+  border: none;
+  outline: none; /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+  width: 90%;
+  vertical-align: middle;
+  font-size: 20px;
+  background-color: #e7eef4;
+  padding-left: 15px;
+  color: #293e4c;
+  font-weight: bold;
+}
+
+input::-moz-placeholder { color: #bec3c9; } /*Firefox*/
+input::-webkit-input-placeholder { color: #bec3c9; } /*Safari AND Chrome*/
+
+input[type="submit"] {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: url(images/search.png) no-repeat 50% 50%; /* Параметры фона */
+}
+
+.leftInfo{
+  display: flex;
+}
+.circle{
+  position: relative;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: beige;
+  margin-right: 15px;
+}
+.circle span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
