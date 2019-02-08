@@ -2,6 +2,7 @@
   "name": "list-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://iriasyk.github.io/list-app",
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
