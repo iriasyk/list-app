@@ -25,11 +25,14 @@ ol{
 .App{
   color: #293e4c;
 }
+
 .wrapper{
   background-color: white;
   width: 90%;
   margin: 0 auto;
   margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
 }
 
 .blockPerson li{
@@ -38,20 +41,45 @@ ol{
   padding-bottom: 3%;
   padding-left: 1%;
   position: relative;
+    color: #aaacae;
 }
 
 .blockPerson li:nth-child(2n){
   background-color: #e8eff4;
+    box-sizing: border-box;
+    border: 1px solid #e8e9ec;
 }
 
 .blockPerson li .liWrapper{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+    width: 96%;
   position: absolute;
   top: 16%;
   left: 4%;
+}
+
+li:nth-child(-n+3) .medal{
+    width: 32px;
+    height: 60px;
+    /*background-image: url(./images/medals/1st.svg), url(./images/medals/2nd.svg), url(./images/medals/3rd.svg);*/
+}
+
+li:nth-child(n+2):nth-child(-n+3) .medal{
+    margin-left: 1%;
+}
+
+li:nth-child(1) .medal{
+    background-image: url(./images/medals/1st.svg);
+}
+
+li:nth-child(2) .medal{
+    background-image: url(./images/medals/2nd.svg);
+}
+
+li:nth-child(3) .medal{
+    background-image: url(./images/medals/3rd.svg);
 }
 
 .blockPerson span{
@@ -66,6 +94,8 @@ ol{
   border: none;
   min-height: 80px;
   background-color: #e7eef4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .search{
@@ -99,6 +129,16 @@ input[type="submit"] {
 .leftInfo{
   display: flex;
 }
+
+.leftInfo h1{
+    color: #293e4c;
+}
+
+.liWrapper span{
+    color: #293e4c;
+    font-weight: bold;
+}
+
 .circle{
   position: relative;
   border-radius: 50%;
@@ -106,6 +146,10 @@ input[type="submit"] {
   height: 60px;
   background-color: beige;
   margin-right: 15px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
 }
 .circle span{
   position: absolute;
@@ -115,4 +159,16 @@ input[type="submit"] {
   color: white;
   font-size: 25px;
   font-weight: bold;
+}
+
+#page-numbers {
+    list-style: none;
+    display: flex;
+}
+
+#page-numbers > li {
+    margin-right: 0.3em;
+    color: blue;
+    user-select: none;
+    cursor: pointer;
 }

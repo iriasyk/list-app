@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import PersonData from "../data/data";
 
 class PersonDetail extends Component {
     render() {
         const {person} = this.props;
 
         function getRandomColor () {
-            var hex = Math.floor(Math.random() * 0xFFFFFF);
+            let hex = Math.floor(Math.random() * 0xFFFFFF);
             return "#" + ("000000" + hex.toString(16)).substr(-6);
         }
 
@@ -27,6 +26,8 @@ class PersonDetail extends Component {
                                         <p className='propertyForP'>{person.count_pub} публ.</p>
                                 </div>
                             </div>
+
+                            <div className='medal'></div>
 
                             <span>{person.pageviews}</span>
                         </div>
