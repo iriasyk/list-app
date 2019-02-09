@@ -190,3 +190,52 @@ input[type="submit"] {
 #page-numbers > li:hover,focus{
     color: #293e4c;
 }
+
+@media (max-width: 921px ) {
+    h1{
+        font-size: 14px;
+    }
+
+    .circle{
+        width: 25px;
+        height: 25px;
+        margin-left: 15px;
+    }
+
+    .circle span{
+        font-size: 14px;
+    }
+
+    .propertyForP{
+        font-size: 12px;
+    }
+
+    .blockPerson li .liWrapper{
+        width: 100%;
+    }
+
+    li:nth-child(-n+3) .medal {
+        width: 16px;
+        height: 30px;
+    }
+
+    .blockPerson li{
+        padding-left: 2%;
+    }
+
+    .searchMain form {
+        margin-left: 2%;
+    }
+
+    .searchMain {
+        min-height: 45px;
+    }
+
+    input[type="submit"] {
+        margin-top: 3%;
+    }
+
+    input[type="text"] {
+        padding-bottom: 3%;
+    }
+}
