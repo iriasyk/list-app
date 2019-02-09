@@ -1,14 +1,14 @@
 {
-  "main.css": "/list-app/static/css/main.58dd1fbc.chunk.css",
-  "main.js": "/list-app/static/js/main.f77cc45d.chunk.js",
-  "main.js.map": "/list-app/static/js/main.f77cc45d.chunk.js.map",
+  "main.css": "/list-app/static/css/main.20ef1c96.chunk.css",
+  "main.js": "/list-app/static/js/main.43b39976.chunk.js",
+  "main.js.map": "/list-app/static/js/main.43b39976.chunk.js.map",
   "static/js/1.19b1bc68.chunk.js": "/list-app/static/js/1.19b1bc68.chunk.js",
   "static/js/1.19b1bc68.chunk.js.map": "/list-app/static/js/1.19b1bc68.chunk.js.map",
   "runtime~main.js": "/list-app/static/js/runtime~main.49c86137.js",
   "runtime~main.js.map": "/list-app/static/js/runtime~main.49c86137.js.map",
-  "static/css/main.58dd1fbc.chunk.css.map": "/list-app/static/css/main.58dd1fbc.chunk.css.map",
+  "static/css/main.20ef1c96.chunk.css.map": "/list-app/static/css/main.20ef1c96.chunk.css.map",
   "static/media/App.css": "/list-app/static/media/2nd.74629788.svg",
   "index.html": "/list-app/index.html",
-  "precache-manifest.73db448646ff7c3aa0f1f35195914761.js": "/list-app/precache-manifest.73db448646ff7c3aa0f1f35195914761.js",
+  "precache-manifest.1ceaca861baee28f7c492650f2c3dac9.js": "/list-app/precache-manifest.1ceaca861baee28f7c492650f2c3dac9.js",
   "service-worker.js": "/list-app/service-worker.js"
 }
