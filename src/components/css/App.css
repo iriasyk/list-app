@@ -238,4 +238,13 @@ input[type="submit"] {
     input[type="text"] {
         padding-bottom: 3%;
     }
+
+    #page-numbers {
+        -webkit-transform: translate(-70%,-5%);
+        transform: translate(-70%,-5%);
+    }
+
+    #page-numbers>li {
+        font-size: 15px;
+    }
 }
