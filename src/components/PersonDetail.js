@@ -14,24 +14,24 @@ class PersonDetail extends Component {
         };
 
         return (
-                    <li>
-                        <div className='liWrapper'>
-                            <div className='leftInfo'>
-                                <div className='circle' style={colorCircle}>
-                                    <span>{person.name[0]}</span>
-                                </div>
-
-                                <div>
-                                    <h1>{person.name}</h1>
-                                        <p className='propertyForP'>{person.count_pub} публ.</p>
-                                </div>
-                            </div>
-
-                            <div className='medal'></div>
-
-                            <span>{person.pageviews}</span>
+            <li>
+                <div className='liWrapper'>
+                    <div className='leftInfo'>
+                        <div className='circle' style={colorCircle}>
+                            <span>{person.name[0]}</span>
                         </div>
-                    </li>
+
+                        <div>
+                            <h1>{person.name}</h1>
+                            <p className='propertyForP'>{person.count_pub} публ.</p>
+                        </div>
+                    </div>
+
+                    <div className='medal'></div>
+
+                    <span>{person.pageviews}</span>
+                </div>
+            </li>
         );
     }
 }
