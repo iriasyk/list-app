@@ -1,15 +1,14 @@
 {
   "main.css": "/list-app/static/css/main.b2961f04.chunk.css",
-  "main.js": "/list-app/static/js/main.3eb28ec8.chunk.js",
-  "main.js.map": "/list-app/static/js/main.3eb28ec8.chunk.js.map",
-  "static/js/1.19b1bc68.chunk.js": "/list-app/static/js/1.19b1bc68.chunk.js",
-  "static/js/1.19b1bc68.chunk.js.map": "/list-app/static/js/1.19b1bc68.chunk.js.map",
+  "main.js": "/list-app/static/js/main.1d188558.chunk.js",
+  "main.js.map": "/list-app/static/js/main.1d188558.chunk.js.map",
+  "static/js/1.c9ef396f.chunk.js": "/list-app/static/js/1.c9ef396f.chunk.js",
+  "static/js/1.c9ef396f.chunk.js.map": "/list-app/static/js/1.c9ef396f.chunk.js.map",
   "runtime~main.js": "/list-app/static/js/runtime~main.49c86137.js",
   "runtime~main.js.map": "/list-app/static/js/runtime~main.49c86137.js.map",
   "static/css/main.b2961f04.chunk.css.map": "/list-app/static/css/main.b2961f04.chunk.css.map",
-  "static/media/1st.svg": "/list-app/static/media/1st.86c17a70.svg",
   "static/media/App.css": "/list-app/static/media/2nd.74629788.svg",
   "index.html": "/list-app/index.html",
-  "precache-manifest.1e2265638978cbe2ae7ed0496ba36ba5.js": "/list-app/precache-manifest.1e2265638978cbe2ae7ed0496ba36ba5.js",
+  "precache-manifest.d7af1229e91336995d874721302d9a8c.js": "/list-app/precache-manifest.d7af1229e91336995d874721302d9a8c.js",
   "service-worker.js": "/list-app/service-worker.js"
 }
