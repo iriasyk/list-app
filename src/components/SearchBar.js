@@ -55,28 +55,11 @@ class SearchBar extends Component {
         }
         // ---Search end
 
-        //Sort from large to small (both by pageviews and by name):
+        //Sort from large to small (both by pageviews):
         (function sorting() {
-            for (let i=0;
-                 i < _users.sort(function(obj1, obj2){
-                     if (obj1.name > obj2.name) {
-                         return 1;
-                     }
-                     if (obj1.name < obj2.name) {
-                         return -1;
-                     };
-                 }).length;
-                 i++) {
-                // console.log(_users[i].name);
-            }
-
-            for (let i=0;
-                 i < _users.sort(function(obj1, obj2){
+            _users.sort(function(obj1, obj2){
                      return obj2.pageviews-obj1.pageviews;
-                 }).length;
-                 i++) {
-                // console.log(_users[i].pageviews);
-            }
+                 })
         }());
 
         // ---pagination start:
@@ -88,15 +71,14 @@ class SearchBar extends Component {
         const currentList = _users.slice(indexOfFirstTodo, indexOfLastTodo); //slice.(1,10)
 
         const renderList = currentList.map((item, index) => {
-            return <PersonDetail person={item}/>
+            return <PersonDetail person={item} />
         });
 
         // Logic for displaying page numbers
-        const pageNumbers = [];
+        const pageNumbers = []; // ....[1,2,3,4]
         for (let i = 1; i <= Math.ceil(_users.length / listPerPage); i++) {
             pageNumbers.push(i);
         }
-        // console.log(pageNumbers); //[1,2,3,4]
 
         const renderPageNumbers = pageNumbers.map(number => {
             return (
