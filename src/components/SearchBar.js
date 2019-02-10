@@ -58,7 +58,7 @@ class SearchBar extends Component {
         //Sort from large to small (both by pageviews and by name):
         (function sorting() {
             for (let i=0;
-                 i < PersonData.sort(function(obj1, obj2){
+                 i < _users.sort(function(obj1, obj2){
                      if (obj1.name > obj2.name) {
                          return 1;
                      }
@@ -67,15 +67,15 @@ class SearchBar extends Component {
                      };
                  }).length;
                  i++) {
-                // console.log(PersonData[i].name);
+                // console.log(_users[i].name);
             }
 
             for (let i=0;
-                 i < PersonData.sort(function(obj1, obj2){
+                 i < _users.sort(function(obj1, obj2){
                      return obj2.pageviews-obj1.pageviews;
                  }).length;
                  i++) {
-                // console.log(PersonData[i].pageviews);
+                // console.log(_users[i].pageviews);
             }
         }());
 
@@ -88,7 +88,7 @@ class SearchBar extends Component {
         const currentList = _users.slice(indexOfFirstTodo, indexOfLastTodo); //slice.(1,10)
 
         const renderList = currentList.map((item, index) => {
-            return <PersonDetail person={item} key={`person-list-key ${index}`} />
+            return <PersonDetail person={item}/>
         });
 
         // Logic for displaying page numbers
@@ -130,7 +130,7 @@ class SearchBar extends Component {
                         </div>
 
                         <div className='blockPerson'>
-                            <ol>
+                            <ol start={1+(currentPage-1)*listPerPage}>
                                 {renderList}
                             </ol>
                         </div>
