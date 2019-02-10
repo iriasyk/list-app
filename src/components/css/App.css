@@ -192,7 +192,7 @@ input[type="submit"] {
 }
 
 @media (max-width: 921px ) {
-    .root{
+    #root{
         height: 736px;
     }
 
@@ -260,6 +260,6 @@ input[type="submit"] {
     }
 
     .leftInfo {
-        margin-left: 5px;
+        margin-left: 15px;
     }
 }
